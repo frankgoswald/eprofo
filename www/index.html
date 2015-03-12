@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <!-- Path to Framework7 Library CSS-->
+        <link rel="stylesheet" href="css/framework7.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Frank G. Oswald</title>
+    </head>
+    <body>
+
+      </div>
+      <!-- Views-->
+      <div class="views">
+        <!-- Your main view, should have "view-main" class-->
+
+
+              <div class="swiper-container">
+                  <!-- Slides wrapper -->
+                  <div class="swiper-wrapper">
+
+
+                    <!-- Slides -->
+                      <div class="swiper-slide"><img class="slide1" src="background1.jpg"></div>
+                      <div class="swiper-slide"><img class="slide2" src="background2.jpg"></div>
+                      <div class="swiper-slide"><img class="slide3" src="background3.jpg"></div>
+                      <div class="swiper-slide"><img class="slide4" src="background4.jpg"></div>
+                      <div class="swiper-slide"><img class="slide5" src="background5.jpg"></div>
+                      <div class="swiper-slide"><img class="slide6" src="background6.jpg"></div>
+                  </div>
+
+                  <!-- Pagination, if required -->
+
+              </div>
+              </div>
+            </div>
+
+            <div class="navbar no-border">
+
+        </div>
+      </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+
+            var myApp = new Framework7();
+
+            // Init slider and store its instance in mySwiper variable
+            var mySwiper = myApp.swiper('.swiper-container', {
+            spaceBetween: -1,
+            speed: 1000,
+            loop: true,
+
+
+            });
+
+        </script>
+
+
+
+    </body>
+</html>
